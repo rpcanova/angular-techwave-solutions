@@ -1,59 +1,41 @@
-# AngularTechwave
+# TechWave Solutions Landing Page
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+Landing page desenvolvida em **Angular 18**, com foco em apresentar os serviços da **TechWave Solutions** de forma moderna, organizada e responsiva.  
 
-## Development server
+## ✨ Funcionalidades
+- Banner inicial com chamada de ação  
+- Seção "Sobre nós" com cards de serviços  
+- Botão de contato reutilizável e customizável  
+- Rodapé com informações organizadas em listas  
+- Design responsivo para diferentes tamanhos de tela  
 
-To start a local development server, run:
+## 🛠️ Tecnologias utilizadas
+- **Angular 18 (Standalone Components)**  
+- **TypeScript**  
+- **HTML5 & CSS3**  
+- **Responsividade com media queries**  
 
-```bash
-ng serve
-```
+## 📂 Estrutura de componentes
+- `app-banner` → Banner da página  
+- `app-about` → Seção sobre nós  
+  - `app-about-card` → Card de serviço  
+- `app-contact-button` → Botão de contato reutilizável  
+- `app-footer` → Rodapé com informações  
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 📸 Demonstração
+(Adicione aqui prints da versão desktop e mobile depois)  
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🚀 Como rodar o projeto
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/rpcanova/angular-techwave-solutions.git
+   ```
+2. Instale as dependências:
+   ```bash
+   npm install
+   ```
+3. Rode o servidor de desenvolvimento:
+   ```bash
+   ng serve
+   ```
+4. Acesse em: [https://techwave-solutions.vercel.app/](https://techwave-solutions.vercel.app/)  
