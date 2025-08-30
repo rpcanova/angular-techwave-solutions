@@ -1,5 +1,7 @@
 .container__banner {
-    height: 500px;
+    min-height: 500px;
+    height: 100vh;
+    max-height: 600px;
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -10,13 +12,63 @@
 
 .container__banner h1 {
     font-size: 48px;
+    line-height: 1.2;
 }
 
 .container__banner p {
     margin-top: 1rem;
     font-size: 18px;
+    line-height: 1.5;
 }
 
 .container__banner span {
     display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container__banner {
+        padding: 1.5rem;
+        min-height: 400px;
+        max-height: 500px;
+    }
+
+    .container__banner h1 {
+        font-size: 42px;
+    }
+
+    .container__banner p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container__banner {
+        padding: 1rem;
+        min-height: 350px;
+        max-height: 450px;
+    }
+
+    .container__banner h1 {
+        font-size: 32px;
+    }
+
+    .container__banner p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 360px) {
+    .container__banner {
+        padding: 0.75rem;
+        min-height: 300px;
+    }
+
+    .container__banner h1 {
+        font-size: 28px;
+    }
+
+    .container__banner p {
+        font-size: 13px;
+    }
 }

@@ -38,3 +38,73 @@
 	background-color: #066bba;
 	color: #fff;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+	.container__navbar {
+		height: 80px;
+	}
+
+	.navbar__logo img {
+		max-width: 120px;
+		max-height: 120px;
+		margin-left: 0.75rem;
+	}
+
+	.navbar__list {
+		margin-right: 0.75rem;
+		padding: 0.75rem;
+	}
+
+	.navbar__list li {
+		margin: 0.5rem;
+		padding: 0.75rem;
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 480px) {
+	.container__navbar {
+		height: 70px;
+	}
+
+	.navbar__logo img {
+		max-width: 100px;
+		max-height: 100px;
+		margin-left: 0.5rem;
+	}
+
+	.navbar__list {
+		margin-right: 0.5rem;
+		padding: 0.5rem;
+	}
+
+	.navbar__list li {
+		margin: 0.25rem;
+		padding: 0.5rem;
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 360px) {
+	.container__navbar {
+		height: 60px;
+	}
+
+	.navbar__logo img {
+		max-width: 80px;
+		max-height: 80px;
+		margin-left: 0.25rem;
+	}
+
+	.navbar__list {
+		margin-right: 0.25rem;
+		padding: 0.25rem;
+	}
+
+	.navbar__list li {
+		margin: 0.25rem;
+		padding: 0.5rem;
+		font-size: 12px;
+	}
+}
