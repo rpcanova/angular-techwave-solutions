@@ -1,0 +1,17 @@
+.container__footer {
+    padding: 1rem;
+    background-color: #1e252d;
+    color: #fff;
+}
+
+.footer__cards {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.footer__text {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}

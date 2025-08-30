@@ -1,0 +1,31 @@
+button {
+    height: 60px;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+:host([variant='banner']) button {
+    width: 15%;
+    color: #0e6ebe;
+}
+
+:host([variant='banner']) button:hover {
+    transform: scale(1.1);
+}
+
+:host([variant='about']) button {
+    width: 200px;
+    margin-bottom: 2rem;
+    background-color: #0e6ebe;
+    color: #fff;
+}
+
+:host([variant='about']) button:hover {
+    border: 1px solid #0e6ebe;
+    background-color: #fff;
+    color: #0e6ebe;
+}

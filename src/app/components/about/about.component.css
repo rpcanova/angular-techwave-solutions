@@ -1,0 +1,17 @@
+.about__text {
+    margin: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+.about__button-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

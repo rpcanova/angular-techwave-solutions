@@ -1,0 +1,22 @@
+.container__banner {
+    height: 500px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0e6ebe;
+    color: #fff;
+}
+
+.container__banner h1 {
+    font-size: 48px;
+}
+
+.container__banner p {
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.container__banner span {
+    display: block;
+}

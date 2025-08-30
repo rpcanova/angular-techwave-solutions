@@ -1,0 +1,14 @@
+ul {
+    
+}
+
+li {
+    list-style: none;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+    text-underline-offset: .2rem;
+}
